@@ -1,21 +1,36 @@
 .navbar {
   background-color: rgba(0, 0, 0, 0.5); 
-
 }
 
-header {
+#fairUse {
+padding-top: 10px;
+padding-bottom: 10px;
+}
+
+#resButton {
+  background-color: rgb(242, 242, 242);
+  color: rgb(239, 58, 58);
+}
+
+#Hero_5 {
   background-image: url(/img/home_hero5.png);
   background-repeat: no-repeat;
   background-size: 100%;
-  height: 600px;
+  background-position: bottom;
   
+}
 
+#Hero_2 {
+  background-image: url(/img/main2.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  
 }
 
 h1 {
   font-family: "Lobster", cursive;
   
-  padding-top: px ;
+  padding-top: 10px ;
   padding-bottom: 0px;
   padding-left: 10%;
   color: white;
@@ -25,8 +40,8 @@ h1 {
 h2 {
   font-family: "Lobster", cursive;
   font-size: 5vw;
-  padding-top: 0;
-  padding-left: 20%;
+  padding-top: 0px ;
+  padding-left: 40%;
   color: white;
 }
 
@@ -35,7 +50,7 @@ h2 {
 }*/
 
 .row-content {
-  padding: 50px 0;
+  padding: 20px 0;
   border-bottom: 1px ridge;
   min-height: auto; }
 
@@ -49,7 +64,7 @@ h2 {
 }
 
 footer {
-  background-color: red;
+  background-color: rgb(255, 255, 255);
 }
 
 h3, p {
@@ -72,4 +87,67 @@ p {
 
 #modalBody {
   color: black;
+  background-color: rgb(254, 254, 254,);
+}
+
+#rooms {
+  color: red;
+}
+
+.card {
+  background-color: rgba(178, 2, 2, 0.689);
+  
+}
+
+.card-header {
+color: white;
+outline-color: black;
+outline-style: ridge;
+}
+
+.card-body {
+  background-color: rgba(43, 39, 39, 0.305);
+  border-left: 0px;
+}
+
+.breadcrumb {
+  background-size: 0%;
+  background-color: rgba(17, 17, 17, 0.168);
+  color: rgb(255, 255, 255)
+}
+
+.breadcrumb a {
+  
+  color: #757578;
+}
+
+.staff {
+background-size: auto;
+}
+
+#building{
+  background-image: url(/img/building.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: fit-content;
+}
+
+.about {
+  background-color: rgba(178, 2, 2, 0.689);
+  background-size: contain;
+  padding-left: 20px;
+}
+.aboutHdr {
+  color: red;
+}
+
+#address {
+  color: white;
+  font-size: 2.5em;
+  font-family: Lobster;
+}
+
+.form {
+  padding-left: 40px;
+  
 }
